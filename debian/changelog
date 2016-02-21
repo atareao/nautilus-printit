@@ -1,9 +1,10 @@
-nautilus-printit (0.0.8-1ubuntu0) wily; urgency=medium
+nautilus-printit (0.0.9-1ubuntu0) wily; urgency=medium
 
   * Reordered folders
   * Added icon
+  * Removed resolution
 
- -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Sun, 21 Feb 2016 23:53:23 +0100
+ -- Lorenzo Carbonell <lorenzo.carbonell.cerezo@gmail.com>  Mon, 22 Feb 2016 00:03:45 +0100
 
 nautilus-printit (0.0.3.0-1ubuntu0) wily; urgency=medium
 

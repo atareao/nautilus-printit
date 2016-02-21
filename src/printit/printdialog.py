@@ -221,6 +221,7 @@ class PrintDialog(Gtk.Dialog):
                      xoptions=Gtk.AttachOptions.FILL,
                      yoptions=Gtk.AttachOptions.SHRINK)
         self.papersizes.connect('changed', self.on_papersize_changed)
+        '''
         label = Gtk.Label(_('Resolution'))
         label.set_alignment(0, 0.5)
         table.attach(label, 0, 1, 5, 6,
@@ -235,6 +236,7 @@ class PrintDialog(Gtk.Dialog):
         table.attach(self.resolutions, 1, 2, 5, 6,
                      xoptions=Gtk.AttachOptions.FILL,
                      yoptions=Gtk.AttachOptions.SHRINK)
+        '''
         #
         self.filenames = filenames
         select_index_in_combo(self.printers, 0)

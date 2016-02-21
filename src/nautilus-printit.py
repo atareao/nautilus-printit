@@ -62,18 +62,9 @@ class PrintItMenuProvider(GObject.GObject, FileManager.MenuProvider):
         files = get_files(selected)
         printDialog = PrintDialog(_('Print'), files)
         if printDialog.run() == Gtk.ResponseType.ACCEPT:
+            printDialog.hide()
             printDialog.pprint()
-            '''
-            images_per_page = printDialog.get_images_per_page()
-            aprinter = printDialog.get_printer()
-            orientation = printDialog.get_orientation()
-            apapersize = printDialog.get_papersize()
-            t = threading.Thread(target=pprint,
-                                 args=(files, images_per_page, aprinter,
-                                       orientation, apapersize))
-            t.daemon = True
-            t.start()
-            '''
+        printDialog.destroy()
 
     def get_file_items(self, window, sel_items):
         """Adds the 'Replace in Filenames' menu item to the File Manager right

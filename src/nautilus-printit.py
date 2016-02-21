@@ -79,7 +79,7 @@ class PrintItMenuProvider(GObject.GObject, FileManager.MenuProvider):
         """Adds the 'Replace in Filenames' menu item to the File Manager right
         -click menu, connects its 'activate' signal to the 'run' method
         passing the selected Directory/File"""
-        if self.all_files_are_sounds(sel_items):
+        if self.all_files_are_images(sel_items):
             top_menuitem = FileManager.MenuItem(
                 name='PrintItMenuProvider::Gtk-printit-tools',
                 label=_('Print images'),

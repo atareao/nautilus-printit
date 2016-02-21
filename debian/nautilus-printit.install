@@ -3,4 +3,5 @@ src/printit/comun.py /usr/share/nautilus-python/extensions/printit
 src/printit/miniview.py /usr/share/nautilus-python/extensions/printit
 src/printit/printdialog.py /usr/share/nautilus-python/extensions/printit
 src/printit/__init__.py /usr/share/nautilus-python/extensions/printit
+data/icons/nautilus-printit.svg /usr/share/nautilus-python/extensions/printit
 debian/changelog /usr/share/nautilus-python/extensions/printit

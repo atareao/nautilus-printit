@@ -43,7 +43,7 @@ APPNAME = 'Nautilus-PrintIt'
 if is_package():
     ROOTDIR = '/usr/share/nautilus-python/extensions/printit/'
     LANGDIR = os.path.join(ROOTDIR, 'locale-langpack')
-    ICONDIR = os.path.join(ROOTDIR, 'icons')
+    ICONDIR = ROOTDIR
     CHANGELOG = os.path.join(ROOTDIR, 'changelog')
 else:
     ROOTDIR = os.path.dirname(__file__)

@@ -9,10 +9,11 @@ Homepage: http://www.atareao.es
 Package: nautilus-printit
 Architecture: all
 Depends: ${misc:Depends}, ${python:Depends},
-	python,
-	python-gi,
-	python-cairo,
-	gir1.2-nautilus-3.0,
-	python-nautilus
+    python,
+    python-gi,
+    python-cairo,
+    gir1.2-nautilus-3.0,
+    python-nautilus,
+    python-cups
 Description: An extension for Nautilus to print images
  An extension for Nautilus to print images directly from contextual menu
